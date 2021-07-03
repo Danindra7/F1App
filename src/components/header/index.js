@@ -7,7 +7,7 @@ import { StyleSheet, Text, View } from 'react-native'
 export default function Header(props) {
     return (
         <View style={styles.header} >
-            <Text style={{ fontSize: 24, fontWeight: 'bold', color: 'white' }}>{props.title}</Text>
+            <Text style={{ fontSize: 24, fontWeight: 'bold', color: 'white', }}>{props.title}</Text>
             <View style={styles.headerIcon} >
                 <Text style={{ color: 'white' }}>ICON</Text>
                 {/* <Icon name="user" size={40} color="white" /> */}

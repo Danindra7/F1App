@@ -15,6 +15,7 @@ export default function RaceCard(props) {
                     <Text>{props.month}</Text>
                 </View>
             </View>
+            <View style={styles.line} ></View>
             <View style={styles.content}>
                 <Text style={styles.round} >{props.round}</Text>
                 <Text style={styles.country} >{props.country}</Text>
@@ -54,6 +55,15 @@ const styles = StyleSheet.create({
         backgroundColor: '#e5e5e5',
         alignItems: 'center',
         borderRadius: 10,
+    },
+    line: {
+        borderColor: 'gray',
+        marginTop: '5%',
+        marginBottom: '5%',
+        marginRight: '3%',
+        borderWidth: 1,
+        borderStyle: 'dashed',
+        borderRadius: 1,
     },
     content: {
         // backgroundColor: 'lightgreen',

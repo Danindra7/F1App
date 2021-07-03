@@ -15,7 +15,8 @@ export const raceData = [
         laps: '43',
         firstGP: '1932',
         distance: '212',
-        record: '1:32.760'
+        record: '1:32.760',
+        racerRecord: 'Sebastian Webel (2018)',
 
     },
     {
@@ -26,14 +27,15 @@ export const raceData = [
         country: 'Austria',
         desc: 'Formula 1 Grosser Preis Von Osterreich',
 
-        flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/2560px-Flag_of_Bulgaria.svg.png',
-        cicuitImg: 'https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/df528651-0911-4889-a00e-8f6e6a407654',
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/2560px-Flag_of_Austria.svg.png',
+        cicuitImg: 'https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Austria_Circuit.png',
         circuitName: 'Circuir john de la vough',
-        circuitLength: '1000',
-        laps: '43',
-        firstGP: '1932',
-        distance: '212',
-        record: '1:32.760'
+        circuitLength: '1020',
+        laps: '53',
+        firstGP: '1912',
+        distance: '322',
+        record: '2:22.760',
+        racerRecord: 'Javier Escuela (2015)',
     },
     {
         id: 'id - 3',
@@ -43,14 +45,15 @@ export const raceData = [
         country: 'Spain',
         desc: 'Formula 1 Grosser Preis Von Osterreich',
 
-        flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/2560px-Flag_of_Bulgaria.svg.png',
-        cicuitImg: 'https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/df528651-0911-4889-a00e-8f6e6a407654',
+        flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png',
+        cicuitImg: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAABm1BMVEX///8AAAAAFh8WAAAAAB8SwACfn6ElFB3WCAsAvgD/AP8AAAb19PaUlJbQrg01LxvExMXQ0NHW8tTw++/Q8M6m4qPlBAZ21HJv0mzv7/AAAA0HmsXr+eoUGSOq4qj/kf//c/+N2ooAABji9uEEos+wsLK/v8AAABR9fYATLz4TJjP/Zf+RkZNCQkf/qv9vb3JOTlK76bgTChMKi7IdFB0zMzn/gf/F7MMNdZYoKC8SQ1dbW18Art94eHve3t/d9duB134RTmVYTBotLTMQWnTLCQ2c35lPykpKExttERgVCBAMfqJ4ZhfDpA4cHCTeugmYDhQ1Exv/0///xf//8v89xzeBEBevlBGGcRaghxPtxgRzYRj0AwIOaogQWHKUfRRFOxuoDRNfEhoAFQD/3///UP9j0F7/wf8xxSqkWGyiDRO3DBAsJx340ABSRhohHx0SrAgSU0kATgBhVRkqYCsMRREUjAASfSQYLzYxtNMhEQAQKxwshxAAXQCUwJOsxqyDD4XRCNJRFFbkB+vTTQw8HxvYUtj/QP//sv8FrxyNAAAVn0lEQVR4nO1di2PS6JbnCyGaApVH+iAQnAJJoIIhIFJKedRWUGqpVmsfY63jaKc7jo9d9947u3t3786+nD97zxcepZCEhEetc/PTljTN85dzzndeX2qzWbBgwYIFCxYsWLBgwYKFceH36SP6tS/wCsFPD4P8tS/x6oChHec4Z6hn3dLXvsSrA18PL2f5/Gk1L++F81XaIksFPWTRdR/tlxfksG3JYUmWGi6S5fDLcpTek/OWZKkByDo3VHm5Xj2r7YEmttc6aIusHvhguGOYs4pvyVfxVRnfnuyTGZ8sO/K+2kKUZmiLrHMAWVF6bi5UW6T99BJTW8rTdJ2ho0sy2K98zW+R1QNM1iKzFFo6BbJq+aXF0OkeJmshWrfJp36LrF4AWdW5Kl2bO6Wr9F5tjj6dqzsWYXkxXF/cO61aZPWgZeDhy+cLyz6fw1atVUPMEs3MtVZbBr4HHdeBPq0shD7JNTk0t+SXq/RZhbZch350/Sxb7dRf9S/kw/AdDFjNv2eR1Y+uZNUX6mfVuqNOL9CLC3V6cdEiawDdQLpjohwdI2Z58INw0EPAfO0rvErwX0QtevHnr315VxpzFj3GYZFlAhZZJmCRZQIWWSZgkWUCFlkm8IcmK1Aue00joH08HbI8SWoKN3A58PLxNIdGg1MSNI6qTZaEd3RN6WamiTKVhitnWcIwWHsvGk7UVKdLk6wyK1C8uzS9e5oOykkRiAICHjz/4f71eWP4h1gPgisJewYV8cEEynvh4Jpk8cWkhyrnpn1zE4WLKihEPXw3P3//5+cPro0iWcubwWDC7iy4bBsgoPHe42uS5UXxdDwXt307ihiII0QQ3OPr8+8eKhSwo9mshj0RO7aLubjEN92pXtnSs1ksm1HOlyrxOkPEFUFAwkL18Pr8z0+AJ7hqrhineKEFj3EIySbK2LNZUEVPquyhegc5LbKENMtlGm2LB6fOTXRk9LqLBa6QjmsNO+YRx1Q9fvHugcJUmvKOoRE8Yu3ZFTsr8SnpwsioTpYHdN9uTxxvZYPB7NZxwg48o+SkNJLikFOMkBERbqvIT+KoPHISxA8vflaYkoRxDxkosPbYKqiVE6V616uR5SqCICaya8Hj9cTycmL9OLuWXccj6kSky8OiCMl9f7h/eHCDJMUJ8OVKIyxVjzFV6YkIq4vNLK/ZMynp4h2rkOV1svZEMLje0j/F4tlXs2ubIF0578DWZpFEIvn9zs7+wfePDmeP9j+Mz5cHicSDF+8wVaXy2NfXghfZs+uNVN/aQbIEEKuV2CpWvKaUpKikVECwKrO1htdJY5r6EiJ/2dkGkYqIIkmSj7p8pUfly4044t38E0JE8QkOQ6nMatbe75MPkAVcNWIrQEuT6p47wKfAhi0Hg5ydHU8Xk4i89/4DGQFypKKInBGS/H48vkqIuIaNFSpOdMTmkT1mR32K1E+WF2W4tXXghL+4vozt2PraCqhm0zPS6QMBfHTgKhJBqdYhyu4cQm2+7rX5MnnLEiJev3gAPtXkBlYFXoWsPhL6yHKhTAbUDaUHn7G3AMZrBYjMjPIQwQijXKApfnzPRXqFs0y1+do+58uEfMUR8fDFHaIVnUwSZSAr069FfWQVYcxcb1x08rugQBe5YHAZ5C5p9uTFdKokoQy585lEfZLZw9e2Sb4ozBWo4OTTIwbIAk1dWbGrcrUng3jA7dpX17ZAFzmTYo84j+RBkc+zpNqd6ciXHm1eBMMgwfWzPwkMV8MAyiRidjattvdCOB+CY+SAruO1l6CLaVPDNCp6PEmW3HkV0YjNAwPyVfRi0UGctrsictyLa0S/GZ4Ihhv4FGtfW85oJbFkOe9XnOVGJhtLgC6qK6s64jirxpFHJNIWyUC/fKV5VExJTS3hkpzE/GtC54BjQHIOcR0o8MSO7donr4RlH+hFCUzXagzrIstrbTqIJEKFyOdtEulu1cvXL0AX6+UCOY2zgBI+fkeYN5+GgBorx41C38oessqosRqzOyWdQ/jCMuhiOQW6uKm49CkzupiOHJxE+i9gAAEqpfD16Gif5DhvnC9qkJUT77wg2H4vezLAWsg5+1Wnh6xCprHGZUTdg4R8eR8+FosajZYulowP9LnIyUHEyM0p8kWSh9skh1it3LaAiPsPCTSd5BGXWQ0OmKwesuLIHtxsDLWWfiZfUbaGADKWzUB4bVgXQbIOh0tWCwGKBT/jhphBGxrCmyMezE/DacAALmKJzEb/6i5ZXtTYDKp7DX2IMtjQl9Ogiy/Xjk2E15L4eX+IzepFkzw50Ro7FYt1/zWhrwejgkeNl1kV490lS4Qwp5Ex9tyjeQZ2EzLg0rfDa0O66HY2d0jjA72+IErsNRAsEyOMcXhQZnmtwQ4+pw5ZUst1N2iv27qYVMLrrNHw2oPIowhr2OEAE3eibeIQ8fNjwriYmgCPQ75ERoWLfKstUkCfPv1jw4QFAF2MgmXphNcZVDAgMYg8PCENm2SO3H8kagV9HkTMc8aJN4ESTiWsNlSF9jQPYP7pk8PxSTQzDPt9TB4+PE0T4XWJJd+TotHyGiL3P7Nahcuk8878NHx3T9NpT2Cu1J8DwzC+f/7Tnx2OP5schv2VOWzpe8Jr95A9yog82SbVw6kBuBC5/UpTdlLi8x8mr4XetBLNLTeQdnUZW/+//NW8tWy59IFWeI1TXdyQkLbkJGdPSNZQRiyAyJ2PmoYBEe8espNNzHjdhZYNBi3RDgva8fMopwaXHiy9d+M8vNaXTk4kdw4hjCm4hw4lIIYwdqo9QCrOuxBx/YlzeKRT5t1J9zkoDSTjUk4pNixnY6uDmc9e6MfP+vDLMn65gaKL2KUX9WO1MhLJ7Z1fyIgT5Sh9vrwKWSqBKu6O2cgQBhwHqmmmDm3PbAZj+IGndB64uxU/j5oUCsnhvvBaLw2A2bp3NPuIxHn4bpo/wA/uIyCcoxi8KneaT/JFFpOln2/wYj/QziWWz8FpYHl1/XgrFttK4IKW3iMwED8PATMngxtRbqW6hoXXgRREya/2j2a/V/hSqkUe3CLU/zh5RbIGx7uiUOAFScRk6T5fXKVaD8aC2aABZLeO1zN2UEBW33tqxc+c7jbDkFcyg7zT2Qmv9RwgHoF0kR/2FflSInEklXiuf4ykEPb3B2mnNniJSmWGSVYZXMtgNmE3DKyLxSG5MRw/vxwePw9BKIx1sRNeN4aE10JR4Qvk65AknWzSiQR3qt8PSDpvzKp6sAXcq6KQpScFGyAD2PszCOeGRA3lAMfPEDOOn0GrhMPRbqpLCa/17LeLTyt8nbw/ISMsW6Qoqdm3SZy9p5Eq5JMCuA73H2g5YW7cGQKGeNOOUkLA1YOABgyOba34eSAZMQryc3hcFFgcXisD8JBUF8gXS5L7R69IDrcI9RsgJUfBau3MEj8/J9QjDh7l2IKIvSHnZBsXJac9tmo4fh4Cfz6MI80kErEufmwMDa8DcZCuG0cnwFZxQAeK4iOdpEORffiOUPd2Njy8t5yyb202xjPE/RCQ/RiUcGIZNJ881wmvW6mujSF2ADaNkNvbJFcYuO+UbtKBQpoWviAISa+EgsuTTc+7cOLGPsk0tt83h7P0Hs5wqksA4TqcJdkBGSpEDrWTDjDYgQuv/mtwkJ0w0AyW/cYDrj8nMpNNY4fCMs5GuOFyfw0Gm8NTXYECi7PtA46eknTQ9v444vk7jQx8Env49iA3Uclq158nnW2syEp4bTzVlWJxeN1v4RG5/UEnYZV0Ei8Ird+D62bfejlQyhoDED+vjhg/D0FeDoeUTpKMsVRXQSTf3xAv+g4BRM7ecGonfQKI+OGxdnGnyCaMVRQMYpz4eQggXmTaqa7lVqpLVxcDKHKvP8OAkw5Nvd0g4tEpG4LWBNftqDihu+OH1J/HQzQsM+1UV0sXm3q6CHHg7L3IBdHyKnG0jokAE/9cpyDdVHqn2Ak1jShKOE78PASMUr1WUl3DdXEj8mG2N2ouC9SFpIM3nhzwBeO6rQ64K0/pYJzEHUI8AEo4WbetD0ze19bFZjD4q27aGUTrSDxP5uE2EtxFwjlzJd6rxN6DLr6NbTXRaLDFw1PaioEJYMcXLjaznh09iWUMIQYnI3q7ujTPB47CQbei6kVu5C7gxjcIHIEmCcVLQnKgoNppz9IwbB6cYVNc47GEy1tWmrUSU+qq6EEoz0S7XV2bOrpYFHHY3DbHScQnvSXx487O9sEHkiRFNsW7PYNBNYUbSu8QWmQo/fxjChdOtUlxJxebtmAp8MlKJwk85Y/Z2K+aHZZ8r4miWCHulsC1j3w+2T462idFKRkfSEvYlJZSpf3WqTEQ8BCmjiVcLpQsxiXUOF5pTKWg249W9bqVdtbusMSeQlehXMr8KqGJkBgBwTrZIfEKteFUaex+TBCoqa6LgfR4wiWk3YLHA37D6hSHwguI5rHp6kk7q5WAwGG/141uAqUUzjd7KanZsvSsRKnrb1KZMvAa6NKYXjGecHkRT/GUWjPu9FBhmFC3w/JX1RIQxM0Hokr51cXrO1wQiBNPrmO6WKTaIziecOG0LOLsl2Oy2ggxYRxed3SRHCwBpcWDQ9UGo/IQ7xSCUIJ4cP/FY44QEYqriNc4wuWSMimJbQBZk5oWZARRGWcGlbTz8b8ckJH+bmfNXN9QV16Z8EcQj+fvK+KVGtx0TMtFIQ7izEudn+pvl4BAF/91e+cV2aeLI0sWhpDCdL2+j229qniNZbkolLlkycJoNYfjXPIr8AdIJPboIksePlKzWYbIgq3aE6Rf3Fe3XufC5TQdDfPostVQQSvVVcZ11oP3F3TRA67DDdX0VEsNDdwhnzsXLxgc+2MrXrGXOFo0m4r4SmQpnSRRpRxLkttHWBdb/AQ48RcNSgyTBU+hhMWrbb1Qs+/22sKV6Gn8SKJhnSwYqrMtLgV+eY7p6uI26CLLB8pu+Gnnc0TVSTZBlu1cvOYfEoPNMFi4EopwbSiGnkI5lBteBvxqkgXwh2Wgq0cXEQI5mz1UnQJllqyWeInEnfvXicE2GyVaXFEKKfiFDRkvXxaGi8zXMfAdMGHZr8w8wLp4j8TTf9+fkBphvUejm0YHeOIt8VB1DhR/nrxNlwuCIHiHN6arzuO5PIAbIXd0cfZoZ+do/6MWV0DWv/31T2b9Z28Kp2/ucIOKrQjXakxpsVbmb6jE5317KPN4hm42RUSVrq5yGs/S+ciREZHT8g68iHY4/v0/cJ+wmRMkEfF6nhiYfmNTfNiM/WUsu2zPcBw3XAuLon0to3agS0R0jobvAm5PRGIq3YxrWAUBOYCsv1UAp4YP7qKSOYiwNco/vBM1gK7gqh34QoU4X9bWMRhDlYLh1zJZbfhqykdZoPg05xEkSj3rLKC/0H9uPf+80XcZu/ATyHDEC0Kj79SN+yJXs7Gt1fbbK9hUUYp3kGzBTblLMLjaN6dTMBwV8ZSX4iX1JIiAyP12LSMUNno8iaf4VIb44TmhVWWg8MsqGpvZtexxotvMptpquhWzZyDkvDKveyorF6Y1VQ6PhubISgmFAM+x3JPrOnPswCXDXCSOs7FYdut4c321jUQHy8urwCZElM10Kjf1FLxheHOajaijkJUsUCV3M84OaTwtuzfAxwPCGon145WtbB9wr+nKqr3BIg+VLF9u2mFEUOhjp7fUMFku3P5dKqPh/d8BXmr1f2u1mjoRiiNecMe/ifcfls7bJQ2ThVspPbgdYl6zUNaDgJdPFlNN1Re5NSXepZQxJ1KsnTqauKmtlRU0QRYGkHX9zhi5c5erI0zA1jfxqsgyImdftSsZl0zWt4ek8zz3Z5Ksls36eyILkQf7nVK1RZY+4iBYHzu9oxZZuvCCYG13e5FGsVk6zYN/MASQGHlPdpuSTZKFp2G8Fr+JIX8CCLAiefSZzKRLLdEyS1aBeDylGfpfBbpvo/ciEbcxc05nuyvEb5KsOHunm9LCfzGUYfJ5Gf4pS7Lcs4An1efxEoMXZTksK5sz7W2U/RimvXm+s9C/BjbKt3c73wgv5NsL+c7pei4g3zrvhd8x3d+1FmClnD/V+2NbOI86e0hyLFXySEr51axk4beKPCdaRbHFPIP/Arty4tYCfKso8DHdBaa9AAhFAbBJVAGs7F/w+aIXVym7tpeioRbgh85n9OKaCwtGNpI1k5+BJHKSH49OSJZjJaHc6mSLmiTLlmKJFw8IlBLK5zPCXH8oBMqeZAoXfE7e3yOdKRcqFtMbxVEkKyAg4gludjM66/CbBH5/6cHRPhnBr4kUUGdSsEnJkmA/jrg2f/+B8T860MGP//nbf5nfa3Tgpr0R8fHRNi74iC2Psjvd3JxkUShZlFiRw+89v24Wz2dm/vud6b3M4z4GfP7P7GjY2Tna2f+M3/nX361rTrJS7qLHg0ocruhz1+50cM0QfpyZ+e1HY5uOhSctPPjfG6PhFyyS7bdJXoQ5ySqmecqb89iowkim4LeJGhYtOMeEcpCi2nuDzUmWFx9HqY0GBK1Xhejg/0bYxzzcY4LiPRrpeJMG3pMTjb0FTRV3R97zasCs6zAWpkCW4E161Oon7mIA2Sbd4WvaKR0HkyerTMXL6jVfIWebeMn7W5esuJBU66a2CSUhXR4cz8bDNy5ZNpsrYFOrPpY9Lt4mTLgu+a1L1qXim5esy8T0yXr2XRdfOgu3nk77rGbgry7oYrHW3nD6anh7RgW3pn1WM1ga9ifmaV9rw+lL1rdAlqML2gHcwJejF3S7ie1SyLq9+9Ptp09vvdmF/3ff7P5+dcmi5Up00Sb7a1Fmb5CsS1HDp0+/7H735uab22+f3b71bObNlytM1mk9Hw0zdSZPfyWy3t51Pb1567vdm2+f3XzrArquHFlY7xT1k5lK1V/Nn8qhekcb6csl6+7NL7dmlI+7N9/C/6tHVr1On9Xre/V6/fR0z3G2WF+s7+3ReO0ZvUd3yDJbCjMPbOB/f/bm5rOfdmd2n848+3336hl42jbnrzHhhbx/KRqu1SrhaqWyAGvycxX/mZ++VMkCtm7N7N7e/fJ0d+bZXdfVI+ss+ik0V8mf1Rk6mgeLRdNLNTrE1M980aVwqOs6LIWmfSkKWT99N/Nm97uffnr6+7MvV9F1sDEMDIAKWYy8GPI5gCz/aTRaDdH+PE0vLgGqVVNTLEaCQhYw9HbmFhirt2+vpJ+luJ716gLQAhaLPq1Xq4696mnb5+pI1vTxzTildH3JVvMthBj/nj8crjn2Fmx7F12H6ePZTRW8uayzG0GHrMXKXm2O9jPVfCjMyI696CJ92WRdfXTIqlUq9Uqllnf45FrFR9eivjOLrH50PPhO2OzofndYZPXDcNbBAjjmC4v6qA0/hgULFixYsGDBggULFixYsGDBggULFiz8/eD/Aa0rsaY6Xc+HAAAAAElFTkSuQmCC',
         circuitName: 'Circuir john de la vough',
         circuitLength: '1000',
         laps: '43',
         firstGP: '1932',
         distance: '212',
-        record: '1:32.760'
+        record: '1:32.760',
+        racerRecord: 'Danie Verosi (2020)',
     },
     {
         id: 'id - 4',
@@ -67,7 +70,8 @@ export const raceData = [
         laps: '43',
         firstGP: '1932',
         distance: '212',
-        record: '1:32.760'
+        record: '1:32.760',
+        racerRecord: 'Sebastian Webel (2018)',
     },
     {
         id: 'id - 5',
@@ -84,7 +88,8 @@ export const raceData = [
         laps: '43',
         firstGP: '1932',
         distance: '212',
-        record: '1:32.760'
+        record: '1:32.760',
+        racerRecord: 'Sebastian Webel (2018)',
     },
     {
         id: 'id - 6',
@@ -101,7 +106,8 @@ export const raceData = [
         laps: '43',
         firstGP: '1932',
         distance: '212',
-        record: '1:32.760'
+        record: '1:32.760',
+        racerRecord: 'Sebastian Webel (2018)',
     },
     {
         id: 'id - 7',
@@ -118,7 +124,8 @@ export const raceData = [
         laps: '43',
         firstGP: '1932',
         distance: '212',
-        record: '1:32.760'
+        record: '1:32.760',
+        racerRecord: 'Sebastian Webel (2018)',
     },
     {
         id: 'id - 8',
@@ -135,7 +142,8 @@ export const raceData = [
         laps: '43',
         firstGP: '1932',
         distance: '212',
-        record: '1:32.760'
+        record: '1:32.760',
+        racerRecord: 'Sebastian Webel (2018)',
     },
     {
         id: 'id - 9',
@@ -152,6 +160,7 @@ export const raceData = [
         laps: '43',
         firstGP: '1932',
         distance: '212',
-        record: '1:32.760'
+        record: '1:32.760',
+        racerRecord: 'Sebastian Webel (2018)',
     },
 ];
